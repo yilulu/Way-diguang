@@ -1,0 +1,73 @@
+﻿.jplbxleft
+{
+	float: left;
+	width: 200px;
+}
+.jplbx
+{
+	width: 1100px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.jplbxright
+{
+	float: left;
+	margin-left: 10px;
+	width: 890px;
+	
+}
+.jplbxleft h3
+{
+	font-weight: normal;
+	background-color: #F2F2F2;
+	font-size: 14px;
+	line-height: 30px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.jplbxleft h1
+{
+	font-size: 14px;
+	line-height: 30px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.jplbxleft h1 a
+{
+	color: #000;
+	text-decoration: none;
+}
+.jplbxleft h2
+{
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: normal;
+	background-color: #F9F9F9;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.jplbxleft h2 a
+{
+	color: #666;
+	text-decoration: none;
+}
+.jplbxright ul
+{
+	float: left;
+	width: 165px;
+	margin: 5px;
+}

@@ -1,0 +1,21 @@
+
+
+eshop(IP:127.0.0.1)	2016/6/6 14:39:33	在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 DTcms.DBUtility.DbHelperSQL.Query(String SQLString) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 552
+   在 DTcms.DAL.users.GetList(Int32 Top, String strWhere, String filedOrder) 位置 f:\ltf\DTcms\DTcms.DAL\users.cs:行号 718
+   在 DTcms.BLL.users.GetList(Int32 Top, String strWhere, String filedOrder) 位置 f:\ltf\DTcms\DTcms.BLL\users.cs:行号 137
+   在 DTcms.Web.Global.Session_Start(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\Global.asax.cs:行号 51
+   在 System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   在 System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+eshop(IP:127.0.0.1)	2016/6/6 14:42:49	在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 DTcms.DBUtility.DbHelperSQL.Query(String SQLString) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 552
+   在 DTcms.DAL.article.GetPageindexList(String WherePostid, Int32 pageSize, String strWhere) 位置 f:\ltf\DTcms\DTcms.DAL\article.cs:行号 241
+   在 DTcms.Web.index.Bind1() 位置 f:\ltf\DTcms\DTcms.Web\index.aspx.cs:行号 124
+   在 DTcms.Web.index.Page_Load(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\index.aspx.cs:行号 34
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

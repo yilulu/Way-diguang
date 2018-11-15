@@ -1,0 +1,62 @@
+
+
+eshop(IP:127.0.0.1)	2016/10/15 9:39:05	无法打开登录所请求的数据库 "diguang"。登录失败。
+用户 'sa' 登录失败。
+   在 DTcms.DBUtility.DbHelperSQL.Query(String SQLString) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 552
+   在 DTcms.DAL.users.GetList(Int32 Top, String strWhere, String filedOrder) 位置 f:\ltf\DTcms\DTcms.DAL\users.cs:行号 728
+   在 DTcms.BLL.users.GetList(Int32 Top, String strWhere, String filedOrder) 位置 f:\ltf\DTcms\DTcms.BLL\users.cs:行号 145
+   在 DTcms.Web.Global.Session_Start(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\Global.asax.cs:行号 51
+   在 System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   在 System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+eshop(IP:127.0.0.1)	2016/10/15 9:43:19	未将对象引用设置到对象的实例。
+   在 DTcms.Web.pay.Page_Load(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\pay.aspx.cs:行号 23
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2016/10/15 9:44:00	未将对象引用设置到对象的实例。
+   在 DTcms.Web.pay.Page_Load(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\pay.aspx.cs:行号 23
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2016/10/15 9:44:18	关键字 'end' 附近有语法错误。
+   在 DTcms.DBUtility.DbHelperSQL.ExecuteSql(String SQLString) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 155
+   在 DTcms.DAL.article.UpdateList(String IDlist) 位置 f:\ltf\DTcms\DTcms.DAL\article_goods.cs:行号 48
+   在 DTcms.BLL.article.UpdateList(String IDlist) 位置 f:\ltf\DTcms\DTcms.BLL\article.cs:行号 52
+   在 DTcms.Web.Global.Session_Start(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\Global.asax.cs:行号 117
+   在 System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   在 System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+eshop(IP:127.0.0.1)	2016/10/15 9:44:56	未将对象引用设置到对象的实例。
+   在 DTcms.Web.pay.Page_Load(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\pay.aspx.cs:行号 23
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2016/10/15 9:45:29	未将对象引用设置到对象的实例。
+   在 DTcms.Web.pay.Page_Load(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\pay.aspx.cs:行号 23
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2016/10/15 9:55:14	关键字 'end' 附近有语法错误。
+   在 DTcms.DBUtility.DbHelperSQL.ExecuteSql(String SQLString) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 155
+   在 DTcms.DAL.article.UpdateList(String IDlist) 位置 f:\ltf\DTcms\DTcms.DAL\article_goods.cs:行号 48
+   在 DTcms.BLL.article.UpdateList(String IDlist) 位置 f:\ltf\DTcms\DTcms.BLL\article.cs:行号 52
+   在 DTcms.Web.Global.Session_Start(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\Global.asax.cs:行号 117
+   在 System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   在 System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

@@ -1,0 +1,189 @@
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, abbr, acronym, address, cite, code, del, dfn, em, img, ins, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, object, table, col, colgroup, caption, summary, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:12px;
+	background:transparent;
+}*/
+.lunboltu input, .lunboltu button {
+	margin:0;
+	padding:0;
+}
+body {
+	color:#333;
+	font-size:12px;
+	font-family:"宋体", Verdana, Arial, Helvetica, sans-serif;
+}
+ .lunboltu  h1, h2, h3, h4, h5, h6, p, ul, ol, dl, em {
+	text-align:;
+	color:#333;
+	font-style:normal;
+	font-family:"宋体", Verdana, Arial, Helvetica, sans-serif;
+}
+ .lunboltu  h1, h2, h3, h4, h5, h6 {
+	font-size:14px;
+	font-weight:700;
+}
+.lunboltu  ol, ul, li {
+	list-style:none;
+}
+.lunboltu  button, input[type="submit"] {
+	cursor:pointer;
+}
+.lunboltu *+html img {
+	margin-bottom:0!important;
+} /* Fix IE7 */
+.lunboltu  textarea {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	overflow:auto;
+}
+
+:focus {
+	outline:0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration:none;
+}
+del {
+	text-decoration:line-through;
+}
+abbr {
+	cursor:help;
+	border-bottom:1px dotted #999;
+}
+acronym {
+	cursor:help;
+	border-bottom:1px dotted #999;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+}
+/* ------------------------------------------------------------------------
+				                 Links 
+------------------------------------------------------------------------- */
+a:link, a:visited {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	color:#d1130e;
+	text-decoration:underline;
+}
+a:active {
+	color:#000;
+}
+/* ------------------------------------------------------------------------
+		                  Hacks 
+------------------------------------------------------------------------- */
+/* ----- clear fix for floats ----- */
+/* these styles instruct non-IE browsers to render container elements so that they fully enclose floats */		
+/* without this class applied, a float might hang over the bottom border of it's container */
+.clearfix:after {
+	content:"\0020";
+	width:0;
+	height:0;
+	line-height:0;
+	font-size:0;
+	display:block;
+	clear:both;
+	visibility:hidden;
+	overflow:hidden;
+}
+.clearfix {
+	display:inline-block;
+*zoom:1;
+}
+/* Hides from IE-mac \*/
+.clearfix {
+	display:block;
+}
+
+.clear {
+	height:0;
+	clear:both;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+
+.image_show {
+	width: 880px;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.image_show .img {
+	float: left;
+	padding-top: 0;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 0;
+}
+.image_show .img, .image_show .img img {
+	float:left;
+}
+.col_left {
+	width: 354px;
+	float: left;
+	overflow: hidden;
+	margin-right: 3px;
+}
+.col_right {
+	float:left;
+	width:395px;
+	overflow:hidden;
+}
+.image_show .tabs_panes .img {
+	position: relative;
+	width: 520px;
+	height: 444px;
+}
+.image_show .tabs_panes .img .img_mask {
+	position: absolute;
+	left: -1px;
+	top: 402px;
+	width: 520px;
+	height: 42px;
+	background: #000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.image_show .tabs_panes .img p {
+	position: absolute;
+	left: 0;
+	top: 401px;
+	width: 520px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}
+.image_show .tabs_panes .img p a, .image_show .tabs_panes .img p a:visited {
+	color:#fff;
+}
+.mask {
+	background: #000;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.xiaotu img {
+	float: left;
+}

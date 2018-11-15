@@ -1,0 +1,98 @@
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:07:07	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Site1.LoadAccess() 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 36
+   在 DTcms.Web.Site1.Page_Load(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 30
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:08:42	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Site1.LoadAccess() 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 36
+   在 DTcms.Web.Site1.Page_Load(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 30
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:09:39	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Site1.LoadAccess() 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 36
+   在 DTcms.Web.Site1.Page_Load(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 30
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:10:08	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Site1.LoadAccess() 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 36
+   在 DTcms.Web.Site1.Page_Load(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 30
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:11:02	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Site1.LoadAccess() 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 36
+   在 DTcms.Web.Site1.Page_Load(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 30
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:15:21	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Site1.LoadAccess() 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 36
+   在 DTcms.Web.Site1.Page_Load(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 30
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:16:47	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Site1.LoadAccess() 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 36
+   在 DTcms.Web.Site1.Page_Load(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 30
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:18:55	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Site1.LoadAccess() 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 36
+   在 DTcms.Web.Site1.Page_Load(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Site1.Master.cs:行号 30
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:19:38	未能找到文件“F:\陈\DTcms\DTcms.Web\xmlconfig\SystemVisitCount.xml”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.Load(String filename)
+   在 DTcms.Web.Global.Application_Start(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Global.asax.cs:行号 21
+
+
+eshop(IP:127.0.0.1)	2018/11/15 16:19:42	未将对象引用设置到对象的实例。
+   在 DTcms.Web.Global.Session_Start(Object sender, EventArgs e) 位置 F:\陈\DTcms\DTcms.Web\Global.asax.cs:行号 145
+   在 System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   在 System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

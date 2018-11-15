@@ -1,0 +1,328 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: normal "ËÎÌו", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#tabbox{
+	width:325px;
+	overflow:hidden;
+	height:208px;
+	margin-right: 0px;
+	margin-left: 20px;
+	display: block;
+	float: right;
+	padding: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	margin-bottom: -1px;
+}
+.tab_conbox{
+	border: 1px solid #ddd;
+	border-top: none;
+	height:208px;
+	margin: 0px;
+	padding: 0px;
+}
+.tab_con{ display:none;}
+
+.tabs{height:32px;border-bottom:1px solid #ddd;border-left: 1px solid #ddd;width: 325px;}
+.tabs li{
+	height:32px;
+	line-height:31px;
+	float:left;
+	overflow: hidden;
+	position: relative;
+	width: 161px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #ddd;
+	border-right-color: #ddd;
+	border-bottom-color: #ddd;
+	border-left-color: #ddd;
+	height:32px;
+	text-align: center;
+	font-size: 18px;
+}
+.tabs li a {
+	display: block;
+	border: 1px solid #fff;
+	outline: none;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+}
+.tabs li a:hover {background: #fff;}	
+.tabs .thistab,.tabs .thistab a:hover{
+	background: #fff;
+	border-bottom-style: solid;
+	border-bottom-color: #77cd4e;
+	border-bottom-width: 3px;
+	height:30px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #53b023;
+}
+
+.tab_con {
+	font-size: 14px;
+	line-height:175%;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#tabbox #tab_conbox2 .tab_con .vip_jieyu {
+	display: block;
+	float: left;
+	height: 126px;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #FF0000;
+}
+#tabbox #tab_conbox2 .tab_con .jieyu {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #FF0000;
+	text-align: center;
+	width: 325px;
+	height: 123px;
+	line-height: 123px;
+	clear: both;
+	display: block;
+}
+#tabbox #tab_conbox2 .tab_con .vip_jieyu2 {
+	clear: both;
+	width: 325px;
+}
+#tabbox #tab_conbox2 .tab_con .vip_jieyu2 .vip_chongzhi {
+	font-size: 18px;
+	line-height: 38px;
+	background-image: url(../images/chongzhi);
+	float: left;
+	height: 38px;
+	width: 103px;
+	font-style: normal;
+	text-align: center;
+	margin-left:-1px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #dcdcdc;
+	border-right-color: #dcdcdc;
+	border-left-color: #dcdcdc;
+}
+#tabbox #tab_conbox2 .tab_con .vip_jieyu2 .vip_chongzhi1 {
+	font-size: 18px;
+	line-height: 38px;
+	background-image: url(../images/chongzhi.jpg);
+	float: left;
+	height: 38px;
+	width:103px;
+	font-style: normal;
+	text-align: center;
+	margin-left: 4px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #dcdcdc;
+	border-right-color: #dcdcdc;
+	border-left-color: #dcdcdc;
+}
+#tabbox #tab_conbox2 .tab_con .vip_jieyu2 .vip_chongzhi2 {
+	font-size: 18px;
+	line-height: 38px;
+	background-image: url(../images/chongzhi.jpg);
+	float: left;
+	height: 38px;
+	width:104px;
+	font-style: normal;
+	text-align: center;
+	margin-left: 4px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #dcdcdc;
+	border-left-color: #dcdcdc;
+}
+#vip_3 {
+	height: auto;
+	width: 1110px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	margin-top:20px;
+}
+#vip_3 #vip_3_1 {
+	float: left;
+	height: 268px;
+	width: 228px;
+	border: 1px solid #dcdcdc;
+	background-color: #fff6e5;
+}
+#vip_3 #vip_3_1 .vip_3_1_1 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #56af2f;
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	text-indent: 15px;
+	margin-bottom: 15px;
+}
+#vip_3 #vip_3_1 .vip_3_1_2 {
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+	display: block;
+	text-indent: 15px;
+}
+#vip_3 #vip_3_3 {
+	float: right;
+	height: auto;
+	width: 855px;
+	border: 1px solid #DCDCDC;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+#vip_3 #vip_3_2 {
+	float: right;
+	height: auto;
+	width: 855px;
+}#vip_3 #vip_3_2 .vip_3_2_1 {
+	font-size: 16px;
+	display: block;
+	width: auto;
+	padding: 5px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #dcdcdc;
+	border-right-color: #dcdcdc;
+	border-left-color: #dcdcdc;
+	margin-left: 15px;
+	text-align: center;
+}
+#vip_3 #vip_3_2 .vip_3_2_2 {
+	float: right;
+	font-size: 16px;
+}
+#vip_3 #vip_3_2 .vip_3_2_2 #vip_ico1 {
+	height: 25px;
+	width: 25px;
+	display: block;
+	float: left;
+}
+#vip_3 #vip_3_2 .vip_3_2_2 .vip_ico1_1 {
+	display: block;
+	width: 90px;
+	float: left;
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: center;
+}
+#vip_3 #vip_3_3 ul {
+	float: left;
+	padding: 0px;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+#vip_3 #vip_3_3 .vip_3_3_1 {
+	line-height: normal;
+	height: auto;
+	font-size: 16px;
+	display: block;
+	width: 850px;
+	float: left;
+	padding: 0px;
+	clear: both;
+	margin-bottom: 5px;
+}
+#vip_3 #vip_3_3 .vip_3_3_1 #vip_ico3_3 {
+	float: left;
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-right: 10px;
+}
+#vip_3 #vip_3_3 .vip_3_3_1 .vip_3_3_1_1 {
+	font-size: 16px;
+	display: block;
+	width: 407px;
+	line-height: 2;
+	height: auto;
+	float: left;
+}
+#vip_3 #vip_3_3 .vip_3_3_1 .vip_3_3_1_2 {
+	font-size: 16px;
+	color: #666666;
+	display: block;
+	float: left;
+	line-height: 35px;
+	height: 35px;
+}
+#vip_3_3 ul table {
+	width: 100%;
+	font-size: 14px;
+	line-height: 45px;
+	color: #666;
+}
+#vip_3_3 ul  td {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.red {
+	color: #F00;
+}
+.xialalb {
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	width:120px;
+	border: 1px solid #CCC;
+}
+.zrjg {
+	line-height: 30px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #CCC;
+	width: 120px;
+}
+.xxsm {
+	border: 1px solid #CCC;
+	width: 400px;
+	height: 200px;
+}
+.btcs {
+	line-height: 30px;
+	width: 400px;
+	border: 1px solid #CCC;
+}

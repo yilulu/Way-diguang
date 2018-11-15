@@ -1,0 +1,44 @@
+
+
+eshop(IP:127.0.0.1)	2016/6/29 16:29:35	在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 DTcms.DBUtility.DbHelperSQL.Query(String SQLString) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 552
+   在 DTcms.DAL.users.GetList(Int32 Top, String strWhere, String filedOrder) 位置 f:\ltf\DTcms\DTcms.DAL\users.cs:行号 718
+   在 DTcms.BLL.users.GetList(Int32 Top, String strWhere, String filedOrder) 位置 f:\ltf\DTcms\DTcms.BLL\users.cs:行号 137
+   在 DTcms.Web.Global.Session_Start(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\Global.asax.cs:行号 51
+   在 System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   在 System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+eshop(IP:127.0.0.1)	2016/6/29 16:30:06	在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 DTcms.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 885
+   在 DTcms.DAL.manager.GetModel(String user_name, String user_pwd) 位置 f:\ltf\DTcms\DTcms.DAL\manager.cs:行号 252
+   在 DTcms.BLL.manager.GetModel(String user_name, String user_pwd) 位置 f:\ltf\DTcms\DTcms.BLL\manager.cs:行号 69
+   在 DTcms.Web.admin.login.btnSubmit_Click(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\admin\login.aspx.cs:行号 52
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+eshop(IP:127.0.0.1)	2016/6/29 20:46:13	无法打开登录所请求的数据库 "diguang"。登录失败。
+用户 'sa' 登录失败。
+   在 DTcms.DBUtility.DbHelperSQL.Query(String SQLString) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 552
+   在 DTcms.DAL.users.GetList(Int32 Top, String strWhere, String filedOrder) 位置 f:\ltf\DTcms\DTcms.DAL\users.cs:行号 718
+   在 DTcms.BLL.users.GetList(Int32 Top, String strWhere, String filedOrder) 位置 f:\ltf\DTcms\DTcms.BLL\users.cs:行号 137
+   在 DTcms.Web.Global.Session_Start(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\Global.asax.cs:行号 51
+   在 System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   在 System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+eshop(IP:127.0.0.1)	2016/6/29 20:46:51	无法打开登录所请求的数据库 "diguang"。登录失败。
+用户 'sa' 登录失败。
+   在 DTcms.DBUtility.DbHelperSQL.GetSingle(String SQLString, SqlParameter[] cmdParms) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 885
+   在 DTcms.DAL.manager.GetModel(String user_name, String user_pwd) 位置 f:\ltf\DTcms\DTcms.DAL\manager.cs:行号 252
+   在 DTcms.BLL.manager.GetModel(String user_name, String user_pwd) 位置 f:\ltf\DTcms\DTcms.BLL\manager.cs:行号 69
+   在 DTcms.Web.admin.login.btnSubmit_Click(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\admin\login.aspx.cs:行号 52
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

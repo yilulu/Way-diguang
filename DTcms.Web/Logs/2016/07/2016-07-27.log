@@ -1,0 +1,10 @@
+
+
+eshop(IP:127.0.0.1)	2016/7/27 21:18:54	关键字 'end' 附近有语法错误。
+   在 DTcms.DBUtility.DbHelperSQL.ExecuteSql(String SQLString) 位置 f:\ltf\DTcms\DTcms.DBUtility\DbHelperSQL.cs:行号 155
+   在 DTcms.DAL.article.UpdateList(String IDlist) 位置 f:\ltf\DTcms\DTcms.DAL\article_goods.cs:行号 49
+   在 DTcms.Web.Global.Session_Start(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\Global.asax.cs:行号 121
+   在 System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   在 System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

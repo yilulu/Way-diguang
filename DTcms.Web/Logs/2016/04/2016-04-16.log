@@ -1,0 +1,68 @@
+
+
+(IP:127.0.0.1)	2016/4/16 10:42:54	dt为空
+2016/4/16 10:42:52
+
+
+(IP:127.0.0.1)	2016/4/16 14:04:48	System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.Dictionary`2[System.String,DTcms.Model.ShopItem]' to type 'System.Data.DataTable'.
+   在 DTcms.Web.usercart.Show_Car() 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx.cs:行号 130
+   在 DTcms.Web.usercart.Show_Car() 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx.cs:行号 130
+
+
+(IP:127.0.0.1)	2016/4/16 14:34:25	System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.Dictionary`2[System.String,DTcms.Model.ShopItem]' to type 'System.Data.DataTable'.
+   在 DTcms.Web.usercart.Show_Car() 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx.cs:行号 131
+   在 DTcms.Web.usercart.Show_Car() 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx.cs:行号 131
+
+
+(IP:127.0.0.1)	2016/4/16 15:36:20	System.Web.HttpException (0x80004005): DataBinding:“DTcms.Model.cart_items”不包含名为“GoodsImage”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 ASP.usercart_aspx.__DataBind__control6(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx:行号 82
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 DTcms.Web.usercart.Show_Car() 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx.cs:行号 135
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 ASP.usercart_aspx.__DataBind__control6(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx:行号 82
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 DTcms.Web.usercart.Show_Car() 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx.cs:行号 135
+
+
+(IP:127.0.0.1)	2016/4/16 15:39:57	System.Web.HttpException (0x80004005): DataBinding:“DTcms.Model.cart_items”不包含名为“GoodsImage”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 ASP.usercart_aspx.__DataBind__control6(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx:行号 82
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 DTcms.Web.usercart.Show_Car() 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx.cs:行号 135
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 ASP.usercart_aspx.__DataBind__control6(Object sender, EventArgs e) 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx:行号 82
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 DTcms.Web.usercart.Show_Car() 位置 f:\ltf\DTcms\DTcms.Web\usercart.aspx.cs:行号 135
