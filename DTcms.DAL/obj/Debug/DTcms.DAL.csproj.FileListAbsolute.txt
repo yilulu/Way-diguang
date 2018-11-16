@@ -220,3 +220,16 @@ F:\陈\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.csproj.CoreCompileInputs.cache
 F:\陈\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.csproj.CopyComplete
 F:\陈\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.dll
 F:\陈\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.pdb
+F:\workspace\DTcms\DTcms.DAL\bin\Debug\DTcms.DAL.dll
+F:\workspace\DTcms\DTcms.DAL\bin\Debug\DTcms.DAL.pdb
+F:\workspace\DTcms\DTcms.DAL\bin\Debug\DTcms.Common.dll
+F:\workspace\DTcms\DTcms.DAL\bin\Debug\DTcms.DBUtility.dll
+F:\workspace\DTcms\DTcms.DAL\bin\Debug\DTcms.Model.dll
+F:\workspace\DTcms\DTcms.DAL\bin\Debug\DTcms.Common.pdb
+F:\workspace\DTcms\DTcms.DAL\bin\Debug\DTcms.DBUtility.pdb
+F:\workspace\DTcms\DTcms.DAL\bin\Debug\DTcms.Model.pdb
+F:\workspace\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.csprojAssemblyReference.cache
+F:\workspace\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.csproj.CoreCompileInputs.cache
+F:\workspace\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.csproj.CopyComplete
+F:\workspace\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.dll
+F:\workspace\DTcms\DTcms.DAL\obj\Debug\DTcms.DAL.pdb

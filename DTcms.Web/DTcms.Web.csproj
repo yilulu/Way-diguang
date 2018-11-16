@@ -57,6 +57,10 @@
       <HintPath>bin\LitJSON.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.JScript" />
+    <Reference Include="MultiOAuth.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MultiOAuth.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>E:\迅雷下载\Newtonsoft.Json.dll\codefans.net\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -69,6 +73,10 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Web.Mobile" />
+    <Reference Include="Tea.Ljd, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Tea.Ljd.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="111.aspx" />
@@ -242,6 +250,8 @@
     <Content Include="front\td.aspx" />
     <Content Include="front\zhsj.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="google.aspx" />
+    <Content Include="google18495383dec27a8b.html" />
     <Content Include="images\gouwuche.png" />
     <Content Include="images\loading.gif" />
     <Content Include="images\miniWin.default.gif" />
@@ -268,6 +278,7 @@
     <Content Include="kjgh.aspx" />
     <Content Include="kjghsearch.aspx" />
     <Content Include="loader.gif" />
+    <Content Include="login_success.aspx" />
     <Content Include="mem.aspx" />
     <Content Include="Notebook.aspx" />
     <Content Include="Notibook.aspx" />
@@ -1736,6 +1747,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="google.aspx.cs">
+      <DependentUpon>google.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="JPCata.aspx.cs">
       <DependentUpon>JPCata.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1756,6 +1771,10 @@
     </Compile>
     <Compile Include="kjghsearch.aspx.designer.cs">
       <DependentUpon>kjghsearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login_success.aspx.cs">
+      <DependentUpon>login_success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="mem.aspx.cs">
       <DependentUpon>mem.aspx</DependentUpon>

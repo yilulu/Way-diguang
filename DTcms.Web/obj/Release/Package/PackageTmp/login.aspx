@@ -30,7 +30,8 @@
     <div id="kong" style="height: 10px">
     </div>
     <div id="ziye_ymx">
-        當前位置：帝光地產聯盟>><a href="login.aspx">登入</a></div>
+        當前位置：帝光地產聯盟>><a href="login.aspx">登入</a>
+    </div>
     <div id="login_1">
         <span class="login_1_1">個人用戶</span><span class="login_1_2">我沒有帳號，現在就<span class="login_1_3">
             <a href="mem.aspx" class="login_1_3">註冊</a></span> <a href="javascript:void(0)" class="login_1_3"
@@ -48,6 +49,9 @@
                 <li><a href="#">
                     <asp:ImageButton ID="btnlogin" runat="server" ImageUrl='../images/sub.jpg' OnClientClick="return valdata()"
                         OnClick="btnlogin_Click" /></a></li>
+                <li>
+                    <input name="input" type="button" value="google帳號快速登入" class="fblogin-btn btn-red" onclick="javascript: location.href = '/google.aspx'" />
+                </li>
             </ul>
             <ul class="login_left1" id="ul2" style='<%=Request.QueryString["type"] == null ? "display:none": "display:"%>'>
                 <li>通過帳號，郵箱找回密碼,請查收郵箱資料</li>
@@ -59,10 +63,12 @@
                 </span></li>
                 <li><a href="#">
                     <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl='../images/sub.jpg' OnClick="ImageButton1_Click" /></a></li>
+
             </ul>
         </div>
         <div id="login_right">
-            <img src="../images/login_ys.jpg" /></div>
+            <img src="../images/login_ys.jpg" />
+        </div>
     </div>
     <script type="text/javascript">
         function showul() {

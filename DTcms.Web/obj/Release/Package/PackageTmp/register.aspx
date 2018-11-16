@@ -209,7 +209,7 @@
                         <option value='宜蘭縣'>宜蘭縣</option>
                         <option value='新竹市'>新竹市</option>
                         <option value='新竹縣'>新竹縣</option>
-                        <option value='桃園縣'>桃園縣</option>
+                        <option value='桃園市'>桃園市</option>
                         <option value='苗栗縣'>苗栗縣</option>
                         <option value='台中市'>台中市</option>
                         <option value='彰化縣'>彰化縣</option>

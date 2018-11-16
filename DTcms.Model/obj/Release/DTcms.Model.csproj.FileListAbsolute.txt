@@ -14,3 +14,12 @@ F:\陈\DTcms\DTcms.Model\obj\Release\DTcms.Model.csproj.CoreCompileInputs.cache
 F:\陈\DTcms\DTcms.Model\obj\Release\DTcms.Model.csproj.CopyComplete
 F:\陈\DTcms\DTcms.Model\obj\Release\DTcms.Model.dll
 F:\陈\DTcms\DTcms.Model\obj\Release\DTcms.Model.pdb
+F:\workspace\DTcms\DTcms.Model\bin\Release\DTcms.Model.dll
+F:\workspace\DTcms\DTcms.Model\bin\Release\DTcms.Model.pdb
+F:\workspace\DTcms\DTcms.Model\bin\Release\DTcms.Common.dll
+F:\workspace\DTcms\DTcms.Model\bin\Release\DTcms.Common.pdb
+F:\workspace\DTcms\DTcms.Model\obj\Release\DTcms.Model.csprojAssemblyReference.cache
+F:\workspace\DTcms\DTcms.Model\obj\Release\DTcms.Model.csproj.CoreCompileInputs.cache
+F:\workspace\DTcms\DTcms.Model\obj\Release\DTcms.Model.csproj.CopyComplete
+F:\workspace\DTcms\DTcms.Model\obj\Release\DTcms.Model.dll
+F:\workspace\DTcms\DTcms.Model\obj\Release\DTcms.Model.pdb

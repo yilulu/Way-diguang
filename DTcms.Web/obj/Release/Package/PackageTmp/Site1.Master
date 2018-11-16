@@ -40,9 +40,9 @@
             $("#BuyPublish").mouseover(function () {
                 $("#DivPublish").show();
             });
-            $("#BuyPublish").mouseout(function () {
-                $("#DivPublish").hide();
-            });
+            //$("#BuyPublish").mouseout(function () {
+            // $("#DivPublish").hide();
+            //  });
         })
         function showPublish() {
             $("#DivPublish").show();
@@ -132,8 +132,7 @@
         function $$$$$(_sId) {
             return document.getElementById(_sId);
         }
-        function hide(_sId)
-        { $$$$$(_sId).style.display = $$$$$(_sId).style.display == "none" ? "" : "none"; }
+        function hide(_sId) { $$$$$(_sId).style.display = $$$$$(_sId).style.display == "none" ? "" : "none"; }
         function pick(v) {
             document.getElementById('am').value = v;
             hide('HMF-1')
@@ -248,34 +247,36 @@
                     </a>
                     <img src="<%=HostUrl %>/images/top_ico3.jpg" name="top_ico1" id="top_ico1" />
                     <%if (!Common.WEBUserCurrent.IsLogin)
-                      {%>
+                        {%>
                     <a href="<%=HostUrl %>/mem.aspx">
                         <li>註冊</li>
                     </a>
-                    <img src="<%=HostUrl %>/images/top_ico2.jpg" name="top_ico1" id="Img1" />
+                    <img src="<%=HostUrl %>/images/top_ico2.jpg" name="top_ico1" id="top_ico1" />
                     <a href="<%=HostUrl %>/login.aspx">
                         <li>登入</li>
                     </a>
-                    <img src="<%=HostUrl %>/images/top_ico1.jpg" name="top_ico1" id="Img2" />
+                    <img src="<%=HostUrl %>/images/top_ico1.jpg" name="top_ico1" id="top_ico1" />
                     <%}
-                      else
-                      { %>
+                        else
+                        { %>
                     <asp:LinkButton ID="lbtnout" runat="server" OnClick="lbtnout_Click"> <li>&nbsp;退出&nbsp;</li></asp:LinkButton>
                     <%} %>
+
                     <a href="<%=HostUrl %>/usercart.aspx">
-                        <li>&nbsp;購物車</li>
+                        <li>購物車</li>
                     </a>
-                    <%if (!Common.WEBUserCurrent.IsLogin)
-                      {%>
-                    <li><a href="javascrpt:;" id="BuyPublish" style="text-decoration: none; color: white;" onclick="showPublish()">物件刊登</a>
-                        <ul id="DivPublish" style="width: 300px;">
+                    <img src="<%=HostUrl %>/images/top_ico4.jpg" name="top_ico1" id="top_ico1" />
+
+                    <li style="position: relative;"><a href="javascrpt:;" id="BuyPublish" style="text-decoration: none; color: white;" onclick="showPublish()">
+                        <img src="<%=HostUrl %>/images/top_ico5.jpg" name="top_ico1" id="top_ico1" style="float: left;" />物件刊登</a>
+                        <ul id="DivPublish" style="width: 300px; position: absolute;">
                             <li><a href="<%=HostUrl %>/front/sell.aspx">出售物件</a></li>
                             <li><a href="<%=HostUrl %>/front/hire.aspx">出租物件</a> | </li>
                             <li><a href="<%=HostUrl %>/front/zhsj.aspx">裝潢刊登</a> | </li>
                             <li><a href="<%=HostUrl %>/front/td.aspx">土地刊登</a> | </li>
                         </ul>
                     </li>
-                    <%} %>
+
                 </ul>
             </div>
         </div>
@@ -398,13 +399,17 @@
             <span class="dibu_1">
                 <p>
                     <br />
-                    帝光開發有限公司 服務電話: (02)2810-1665 傳真: (02)2810-3428
+                    帝光開發有限公司
+		   電話：(02)2596-8155   傳真：(02)2586-9355
                 </p>
                 <p>
-                    台北市士林區延平北路六段208號 empro@hotmail.com.tw
+                    台北市重慶北路三段120巷8號1樓 empro@hotmail.com.tw
+                </p>
+                <p>
+                    Copyright@2007-2013 by Addcn Technology Co;Ltd ALL Rights Reserved
                 </p>
                 <p>本日瀏覽人次:<%=TodayCount %></p>
-                 <p>總瀏覽人次:<%=TotalCount %></p>
+                <p>總瀏覽人次:<%=TotalCount %></p>
             </span>&nbsp;
         </div>
         <!-- 代码开始 -->

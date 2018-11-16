@@ -36,13 +36,7 @@
                         $(this).val(chushi);
                     }
                 })
-            });
-            $("#BuyPublish").mouseover(function () {
-                $("#DivPublish").show();
-            });
-            $("#BuyPublish").mouseout(function () {
-                $("#DivPublish").hide();
-            });
+            })
         })
         function showPublish() {
             $("#DivPublish").show();
@@ -175,7 +169,7 @@
                     </a>
                     <img src="images/top_ico3.jpg" name="top_ico1" id="top_ico1" />
                     <%if (!Common.WEBUserCurrent.IsLogin)
-                      {%>
+                        {%>
                     <a href="mem.aspx">
                         <li>註冊</li>
                     </a>
@@ -185,17 +179,19 @@
                     </a>
                     <img src="images/top_ico1.jpg" name="top_ico1" id="top_ico1" />
                     <%}
-                      else
-                      { %>
+                        else
+                        { %>
                     <asp:LinkButton ID="lbtnout" runat="server" OnClick="lbtnout_Click"> <li>&nbsp;退出&nbsp;</li></asp:LinkButton>
                     <%} %>
                     <a href="usercart.aspx">
-                        <li>&nbsp;購物車</li>
+                        <li>購物車</li>
                     </a>
-                    <%if (!Common.WEBUserCurrent.IsLogin)
-                      {%>
-                    <li><a href="javascrpt:;" id="BuyPublish" style="text-decoration: none; color: white;" onclick="showPublish()">物件刊登</a>
-                        <ul id="DivPublish" style="width: 300px;">
+                    <img src="images/top_ico4.jpg" name="top_ico1" id="top_ico1" />
+                    <%if (Common.WEBUserCurrent.IsLogin)
+                        {%>
+                    <li style="position: relative;"><a href="javascrpt:;" style="text-decoration: none; color: white;" onclick="showPublish()">
+                        <img src="images/top_ico5.jpg" name="top_ico1" id="top_ico1" style="float: left;" />物件刊登</a>
+                        <ul id="DivPublish" style="width: 300px; position: absolute;">
                             <li><a href="<%=HostUrl %>/front/sell.aspx">出售物件</a></li>
                             <li><a href="<%=HostUrl %>/front/hire.aspx">出租物件</a> | </li>
                             <li><a href="<%=HostUrl %>/front/zhsj.aspx">裝潢刊登</a> | </li>
@@ -211,17 +207,16 @@
                 <img src="images/logo.jpg" name="logo" id="logo" /></a>
             <div id="daohang">
                 <ul>
-                    <li class="daohang1"><a href="index.aspx">首頁</a></li>
-                    <li class="daohang2"><a href="productlist.aspx?mid=2">出售</a></li>
-                    <li class="daohang2"><a href="productlist.aspx?mid=3">出租</a></li>
-                    <li class="daohang2"><a href="kjgh.aspx?mid=4">空間規劃</a></li>
-                    <li class="daohang2"><a href="viplist.aspx?mid=8">VIP</a></li>
-                    <%-- <li class="daohang2"><a href="cjhq.aspx">成交行情</a></li>--%>
-                    <li class="daohang2"><a href="producJP.aspx?mid=5">帝光精品</a></li>
-                    <li class="daohang2"><a href="productdsgx.aspx?mid=6">便利生活</a></li>
-                    <li class="daohang2"><a href="news.aspx?mid=7">知識分享</a></li>
-                    <li class="daohang2"><a href="UserNeed.aspx?mid=9">市場需求</a></li>
-                    <li class="daohang3"><a href="Notibook.aspx?mid=10">留言諮詢</a></li>
+                    <li class="daohang1"><a href="/">首頁</a></li>
+                    <li class="daohang2"><a href="<%=HostUrl %>/productlist.aspx?mid=2">出售</a></li>
+                    <li class="daohang2"><a href="<%=HostUrl %>/productlist.aspx?mid=3">出租</a></li>
+                    <li class="daohang2"><a href="<%=HostUrl %>/kjgh.aspx?mid=4">空間規劃</a></li>
+                    <li class="daohang2"><a href="<%=HostUrl %>/viplist.aspx?mid=8">VIP</a></li>
+                    <li class="daohang2"><a href="<%=HostUrl %>/productJPlist.aspx?mid=5">帝光精品</a></li>
+                    <li class="daohang2"><a href="<%=HostUrl %>/productdsgx.aspx?mid=6">便利生活</a></li>
+                    <li class="daohang3"><a href="<%=HostUrl %>/news.aspx?mid=7">知識分享</a></li>
+                    <li class="daohang2"><a href="<%=HostUrl %>/UserNeed.aspx?mid=9">市場需求</a></li>
+                    <li class="daohang2"><a href="<%=HostUrl %>/Notibook.aspx?mid=10">留言諮詢</a></li>
                 </ul>
             </div>
         </div>
@@ -286,17 +281,49 @@
             </div>
             <span class="dibu_1">
                 <p>
-                    帝光開發有限公司 服務電話: (02)2810-1665 傳真: (02)2810-3428
+                    <br />
+                    帝光開發有限公司
+		   電話：(02)2596-8155   傳真：(02)2586-9355
                 </p>
                 <p>
-                    台北市士林區延平北路六段208號 empro@hotmail.com.tw
-                </p>   <p>本日瀏覽人次:<%=TodayCount %></p>
-                 <p>總瀏覽人次:<%=TotalCount %></p>
+                    台北市重慶北路三段120巷8號1樓 empro@hotmail.com.tw
+                </p>
+                <p>
+                    Copyright@2007-2013 by Addcn Technology Co;Ltd ALL Rights Reserved
+                </p>
+                <p>本日瀏覽人次:<%=TodayCount %></p>
+                <p>總瀏覽人次:<%=TotalCount %></p>
             </span>&nbsp;
         </div>
-        <div id="tbox">
-            <a id="pinglun" href="http://diguang.myflysoft.com/Notibook.aspx"></a><a id="gotop"
-                href="javascript:void(0)"></a>
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                $(".side ul li").hover(function () {
+                    $(this).find(".sidebox").stop().animate({ "width": "124px" }, 200).css({ "opacity": "1", "filter": "Alpha(opacity=100)", "background": "#ae1c1c" })
+                }, function () {
+                    $(this).find(".sidebox").stop().animate({ "width": "54px" }, 200).css({ "opacity": "0.8", "filter": "Alpha(opacity=80)", "background": "#000" })
+                });
+
+            });
+
+            //回到顶部
+            function goTop() {
+                $('html,body').animate({ 'scrollTop': 0 }, 600);
+            }
+        </script>
+        <div class="side">
+            <ul>
+
+                <li><a href="http://www.empro.com.tw/Notibook.aspx?mid=10">
+                    <div class="sidebox">
+                        <img src="images/side_icon02.png">留言諮詢</div>
+                </a></li>
+
+                <li style="border: none;"><a href="javascript:goTop();" class="sidetop">
+                    <div class="sidebox">
+                        <img src="images/side_icon05.png">返回頂部</div>
+                </a></li>
+            </ul>
         </div>
     </form>
 </body>

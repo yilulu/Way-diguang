@@ -139,3 +139,12 @@ F:\陈\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.csproj.CoreCompileInputs.
 F:\陈\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.csproj.CopyComplete
 F:\陈\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.dll
 F:\陈\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.pdb
+F:\workspace\DTcms\DTcms.DBUtility\bin\Debug\DTcms.DBUtility.dll
+F:\workspace\DTcms\DTcms.DBUtility\bin\Debug\DTcms.DBUtility.pdb
+F:\workspace\DTcms\DTcms.DBUtility\bin\Debug\DTcms.Common.dll
+F:\workspace\DTcms\DTcms.DBUtility\bin\Debug\DTcms.Common.pdb
+F:\workspace\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.csprojAssemblyReference.cache
+F:\workspace\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.csproj.CoreCompileInputs.cache
+F:\workspace\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.csproj.CopyComplete
+F:\workspace\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.dll
+F:\workspace\DTcms\DTcms.DBUtility\obj\Debug\DTcms.DBUtility.pdb
