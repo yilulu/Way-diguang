@@ -154,6 +154,17 @@
             document.getElementById(id).style.color = "#788F72";
         }
     </script>
+    <script src="js/jquery.liMarquee.js"></script>
+	<script>
+	$(window).load(function(){
+		$('.str1').liMarquee({
+			direction: 'up'	,
+			scrollamount: 10
+		});
+	
+	});
+
+	</script>
     <style type="text/css">
         #Layer1 {
             position: absolute;
