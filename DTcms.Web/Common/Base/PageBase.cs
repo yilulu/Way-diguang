@@ -4,12 +4,31 @@ using System.Text;
 using System.Web.UI;
 using System.Data;
 using Common;
+using DTcms.Common;
 
 namespace Common
 {
     public class PageBase : Page
     {
         SQLHelper SQlHelper1 = new SQLHelper();
+
+
+        /// <summary>
+        /// 父類的構造函數
+        /// </summary>
+        public PageBase()
+        {
+            #region 记录网站访问
+            DTcms.BLL.ipAccess bll_ipAccess = new DTcms.BLL.ipAccess();
+            DTcms.Model.ipAccess entity = new DTcms.Model.ipAccess();
+            entity.iP_Address = DTRequest.GetIP();
+            entity.iP_DateTime = DateTime.Now;
+            if (!bll_ipAccess.Exists(entity.iP_Address))
+            {
+                bll_ipAccess.Add(entity);
+            }
+            #endregion
+        }
 
         /// <summary>
         /// 

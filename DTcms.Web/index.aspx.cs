@@ -6,6 +6,7 @@ using System.Web.UI.WebControls;
 using DTcms.DAL;
 using Common;
 using System.Data;
+using DTcms.Common;
 
 namespace DTcms.Web
 {
@@ -53,6 +54,8 @@ namespace DTcms.Web
                     }
                 }
             }
+
+          
         }
 
         #region 成交

@@ -4,10 +4,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
+using Common;
 
 namespace DTcms.Web
 {
-    public partial class shengji : System.Web.UI.Page
+    public partial class shengji : PageBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {

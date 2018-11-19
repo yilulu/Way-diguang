@@ -11,7 +11,7 @@ using LitJson;
 
 namespace DTcms.Web
 {
-    public partial class usercart : System.Web.UI.Page
+    public partial class usercart : PageBase
     {
         public string Images = "", TotalPrices, SinglePrice, Fee;
         public bool ISb = true; decimal TwoTypeFee = 0;

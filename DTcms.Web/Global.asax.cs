@@ -14,21 +14,16 @@ namespace DTcms.Web
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            /**********总访问量****************/
-            string serverFile = Server.MapPath("~/xmlconfig/SystemVisitCount.config");
-            int intCount = 0;
-            System.Xml.XmlDocument xmldoc = new System.Xml.XmlDocument();
-            xmldoc.Load(serverFile);
-            string strCount = xmldoc.SelectSingleNode("Condition/Count").InnerText;
-            intCount = int.Parse(strCount);
-            object obj = intCount;
-            Application["counter"] = obj;
-            /*********************************/
-
-            /**********今日访问量****************/
-            Application["dayCounter"] = 0;
-            Application["day"] = DateTime.Now.ToString();
-            /*********************************/
+            #region 记录网站访问
+            BLL.ipAccess bll_ipAccess = new BLL.ipAccess();
+            Model.ipAccess entity = new Model.ipAccess();
+            entity.iP_Address = DTRequest.GetIP();
+            entity.iP_DateTime = DateTime.Now;
+            if (!bll_ipAccess.Exists(entity.iP_Address))
+            {
+                bll_ipAccess.Add(entity);
+            }
+            #endregion
         }
 
         protected void Session_Start(object sender, EventArgs e)
@@ -136,17 +131,7 @@ namespace DTcms.Web
             }
             #endregion
 
-            #region 记录网站访问
-            BLL.ipAccess bll_ipAccess = new BLL.ipAccess();
-            Model.ipAccess entity = new Model.ipAccess();
-            string ipAddress = Request.UserHostAddress;
-            entity.iP_Address = ipAddress;
-            entity.iP_DateTime = DateTime.Now;
-            if (!bll_ipAccess.Exists(ipAddress))
-            {
-                bll_ipAccess.Add(entity);
-            }
-            #endregion
+           
 
         }
         #region 發送郵件

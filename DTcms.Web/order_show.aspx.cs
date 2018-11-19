@@ -1,4 +1,5 @@
-﻿using DTcms.Common;
+﻿using Common;
+using DTcms.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace DTcms.Web
 {
-    public partial class order_show : System.Web.UI.Page
+    public partial class order_show : PageBase
     {
         private int id = 0;
         protected Model.orders model = new Model.orders();

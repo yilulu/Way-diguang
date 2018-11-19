@@ -79,7 +79,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="111.aspx" />
     <Content Include="admin\article\edit.aspx" />
     <Content Include="admin\article\list.aspx" />
     <Content Include="admin\attribute\edit.aspx" />
@@ -918,13 +917,6 @@
     <Content Include="login_vip.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="111.aspx.cs">
-      <DependentUpon>111.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="111.aspx.designer.cs">
-      <DependentUpon>111.aspx</DependentUpon>
-    </Compile>
     <Compile Include="admin\article\edit.aspx.cs">
       <DependentUpon>edit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

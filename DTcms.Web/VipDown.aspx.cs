@@ -5,10 +5,11 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.IO;
 using DTcms.Common;
+using Common;
 
 namespace DTcms.Web
 {
-    public partial class VipDown : System.Web.UI.Page
+    public partial class VipDown : PageBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {

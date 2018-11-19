@@ -10,7 +10,7 @@ using Common;
 
 namespace DTcms.Web
 {
-    public partial class upFile1 : System.Web.UI.Page
+    public partial class upFile1 : PageBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {

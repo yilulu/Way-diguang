@@ -248,7 +248,7 @@
                     <img src="<%=HostUrl %>/images/top_ico3.jpg" name="top_ico1" id="top_ico1" />
                     <%if (!Common.WEBUserCurrent.IsLogin)
                         {%>
-                    <a href="<%=HostUrl %>/mem.aspx">
+                    <a href="<%=HostUrl %>/register.aspx">
                         <li>註冊</li>
                     </a>
                     <img src="<%=HostUrl %>/images/top_ico2.jpg" name="top_ico1" id="top_ico1" />

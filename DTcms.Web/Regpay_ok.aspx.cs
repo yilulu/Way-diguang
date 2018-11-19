@@ -11,7 +11,7 @@ using DTcms.Common;
 
 namespace DTcms.Web
 {
-    public partial class Regpay_ok : System.Web.UI.Page
+    public partial class Regpay_ok : PageBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {

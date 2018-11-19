@@ -8,8 +8,9 @@ using Tea.Common;
 using MultiOAuth.Core;
 using MultiOAuth.Core.Service;
 using MultiOAuth.Core.Client;
+using Common;
 
-public partial class google : System.Web.UI.Page
+public partial class google : PageBase
 {
     protected void Page_Load(object sender, EventArgs e)
     {

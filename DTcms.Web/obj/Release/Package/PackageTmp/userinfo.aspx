@@ -28,7 +28,7 @@
         <!--會員左邊菜單-->
         <uc1:usermenu ID="usermenu1" runat="server" />
         <div id="vip_3_2">
-            <span class="vip_3_2_1">我的資料</span><asp:Literal ID="UpUserGroup" runat="server"></asp:Literal></div>
+            <span class="vip_3_2_1">我的資料</span><asp:Literal ID="UpUserGroup" Visible="false" runat="server"></asp:Literal></div>
         <div id="vip_3_3">
             <div id="login" style="width: 800px; height: 920px; border: 0px none">
                 <div id="login_left" style="border: 0px none">

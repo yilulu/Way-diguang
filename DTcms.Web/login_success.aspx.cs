@@ -6,8 +6,9 @@ using System.Web;
 using System.Web.SessionState;
 using MultiOAuth.Core;
 using DTcms.Common;
+using Common;
 
-public partial class user_login_success : System.Web.UI.Page
+public partial class user_login_success : PageBase
 {
     protected void Page_Load(object sender, EventArgs e)
     {

@@ -9,7 +9,7 @@ using System.Data;
 
 namespace DTcms.Web
 {
-    public partial class userorder : System.Web.UI.Page
+    public partial class userorder : PageBase
     {
         public string Images = "";
         protected void Page_Load(object sender, EventArgs e)

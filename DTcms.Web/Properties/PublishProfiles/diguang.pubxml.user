@@ -612,10 +612,10 @@
       <publishTime>11/16/2018 11:31:22</publishTime>
     </File>
     <File Include="bin/DTcms.Web.dll">
-      <publishTime>11/16/2018 12:11:27</publishTime>
+      <publishTime>11/19/2018 14:38:06</publishTime>
     </File>
     <File Include="bin/DTcms.Web.pdb">
-      <publishTime>11/16/2018 12:11:27</publishTime>
+      <publishTime>11/19/2018 14:38:06</publishTime>
     </File>
     <File Include="bin/DTcms.Web.Plugin.Link.dll">
       <publishTime>01/10/2013 23:29:38</publishTime>
@@ -1932,7 +1932,7 @@
       <publishTime>12/18/2015 17:52:31</publishTime>
     </File>
     <File Include="register.aspx">
-      <publishTime>11/16/2018 11:12:24</publishTime>
+      <publishTime>11/19/2018 11:41:42</publishTime>
     </File>
     <File Include="RegPay.aspx">
       <publishTime>07/21/2014 23:29:10</publishTime>
@@ -2433,19 +2433,19 @@
       <publishTime>09/09/2014 20:39:04</publishTime>
     </File>
     <File Include="Site1.Master">
-      <publishTime>11/16/2018 12:10:54</publishTime>
+      <publishTime>11/19/2018 11:25:13</publishTime>
     </File>
     <File Include="Site2.Master">
-      <publishTime>11/16/2018 12:10:56</publishTime>
+      <publishTime>11/19/2018 11:26:04</publishTime>
     </File>
     <File Include="Site3.Master">
-      <publishTime>11/16/2018 12:10:56</publishTime>
+      <publishTime>11/19/2018 11:26:04</publishTime>
     </File>
     <File Include="Site4.Master">
-      <publishTime>11/16/2018 12:10:56</publishTime>
+      <publishTime>11/19/2018 11:26:04</publishTime>
     </File>
     <File Include="Site5.Master">
-      <publishTime>11/16/2018 12:10:56</publishTime>
+      <publishTime>11/19/2018 11:26:04</publishTime>
     </File>
     <File Include="sj.aspx">
       <publishTime>08/18/2014 15:01:26</publishTime>
@@ -2589,7 +2589,7 @@
       <publishTime>08/13/2014 15:38:56</publishTime>
     </File>
     <File Include="userinfo.aspx">
-      <publishTime>12/24/2014 23:26:49</publishTime>
+      <publishTime>11/19/2018 11:21:36</publishTime>
     </File>
     <File Include="userlook.aspx">
       <publishTime>09/01/2014 14:19:19</publishTime>

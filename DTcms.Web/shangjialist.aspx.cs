@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections.Generic;
 using System.Web;
 using System.Web.UI;
@@ -6,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace DTcms.Web
 {
-    public partial class WebForm13 : System.Web.UI.Page
+    public partial class WebForm13 : PageBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {

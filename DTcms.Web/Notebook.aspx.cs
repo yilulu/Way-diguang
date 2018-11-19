@@ -9,7 +9,7 @@ using DTcms.Common;
 
 namespace DTcms.Web
 {
-    public partial class Notebook : System.Web.UI.Page
+    public partial class Notebook : PageBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {

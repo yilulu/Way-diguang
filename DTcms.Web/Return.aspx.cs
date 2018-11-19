@@ -6,10 +6,11 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Text;
 using System.IO;
+using Common;
 
 namespace DTcms.Web
 {
-    public partial class Return : System.Web.UI.Page
+    public partial class Return : PageBase
     {
         protected string paymenttype, id, ptype;
         protected Model.orders model = null;

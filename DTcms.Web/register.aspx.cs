@@ -12,10 +12,10 @@ using DTcms.Web.UI;
 
 namespace DTcms.Web
 {
-    public partial class WebForm7 : System.Web.UI.Page
+    public partial class WebForm7 : BasePage
     {
         DTcms.DAL.users daluser = new DTcms.DAL.users();
-        int type = 0; public string address = string.Empty;
+        int type = 1; public string address = string.Empty;
         protected void Page_Load(object sender, EventArgs e)
         {
             #region 防止表单重复提交
@@ -34,7 +34,7 @@ namespace DTcms.Web
             //给提交按钮增加OnClick属性
             this.btnlogin.Attributes.Add("onclick", sb.ToString());
             #endregion
-            type = DTRequest.GetQueryInt("type");
+            //type = DTRequest.GetQueryInt("type");
             if (!IsPostBack)
             {
                 TreeBind("is_lock=0"); //綁定類別

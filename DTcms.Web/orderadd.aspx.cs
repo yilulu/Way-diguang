@@ -12,7 +12,7 @@ using System.Data;
 
 namespace DTcms.Web
 {
-    public partial class WebForm11 : System.Web.UI.Page
+    public partial class WebForm11 : PageBase
     {
         public string TotalPrice; protected string Fee, point, pointMoney, shengyu, PousePrice; decimal TwoTypeFee = 0;
         string orderNo = string.Empty;

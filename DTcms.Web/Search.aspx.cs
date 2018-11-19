@@ -5,10 +5,11 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using DTcms.Common;
+using Common;
 
 namespace DTcms.Web
 {
-    public partial class Search : System.Web.UI.Page
+    public partial class Search : PageBase
     {
         protected string prolistview = string.Empty;
         int PartentID = 0, page = 1, pageSize, totalCount, cataID = 0; protected int channel_id;

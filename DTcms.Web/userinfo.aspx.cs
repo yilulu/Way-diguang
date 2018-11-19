@@ -10,7 +10,7 @@ using Common;
 
 namespace DTcms.Web
 {
-    public partial class userinfo : System.Web.UI.Page
+    public partial class userinfo : PageBase
     {
         DTcms.DAL.users daluser = new DTcms.DAL.users();
         protected void Page_Load(object sender, EventArgs e)

@@ -237,7 +237,7 @@
                 </span></li>
                 <li><span class="login_left_1_1">郵遞區號:</span><span class="login_left_1_2"><asp:TextBox ID="txtZip" CssClass="inputtext" runat="server" class=" login-ipt"></asp:TextBox>
                 </span></li>
-                <li id="zhifuModel"><span class="login_left_1_1">付款方式:</span><span class="login_left_1_2"><cc1:MyDropDownList
+                <li style="display:none" id="zhifuModel"><span class="login_left_1_1">付款方式:</span><span class="login_left_1_2"><cc1:MyDropDownList
                     ID="ddlzhifu" name="ddlzhifu" runat="server" Where=" is_lock=0" Table_ID_Name="dt_payment*id*title">
                 </cc1:MyDropDownList>
                 </span></li>

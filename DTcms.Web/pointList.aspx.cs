@@ -10,7 +10,7 @@ using Common;
 
 namespace DTcms.Web
 {
-    public partial class pointList : System.Web.UI.Page
+    public partial class pointList : PageBase
     {
         protected int totalCount;
         protected int page;

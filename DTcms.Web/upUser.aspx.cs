@@ -9,7 +9,7 @@ using DTcms.Common;
 
 namespace DTcms.Web
 {
-    public partial class upUser : System.Web.UI.Page
+    public partial class upUser : PageBase
     {
         protected string paymenttype, id, ptype, webUrl = string.Empty;
         protected Model.orders model = null;

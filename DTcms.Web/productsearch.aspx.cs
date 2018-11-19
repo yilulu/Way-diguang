@@ -11,7 +11,7 @@ using Common;
 
 namespace DTcms.Web
 {
-    public partial class productsearch : System.Web.UI.Page
+    public partial class productsearch : PageBase
     {
         protected int channel_id;
         BLL.article bll = new BLL.article();

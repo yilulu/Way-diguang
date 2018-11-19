@@ -8,10 +8,11 @@ using System.Text;
 using System.IO;
 using DTcms.Common;
 using System.Xml;
+using Common;
 
 namespace DTcms.Web
 {
-    public partial class pay : System.Web.UI.Page
+    public partial class pay : PageBase
     {
         protected string paymenttype, id, ptype, webUrl = string.Empty;
         protected Model.orders model = null;

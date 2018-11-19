@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Common;
 using DTcms.Common;
 
 namespace DTcms.Web
 {
-    public partial class login_vip : System.Web.UI.Page
+    public partial class login_vip : PageBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {
