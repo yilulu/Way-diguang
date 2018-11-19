@@ -154,6 +154,17 @@
             document.getElementById(id).style.color = "#788F72";
         }
     </script>
+    <script src="js/jquery.liMarquee.js"></script>
+	<script>
+	$(window).load(function(){
+		$('.str1').liMarquee({
+			direction: 'up'	,
+			scrollamount: 10
+		});
+	
+	});
+
+	</script>
     <style type="text/css">
         #Layer1 {
             position: absolute;
@@ -298,6 +309,17 @@
                 </ul>
             </div>
         </div>
+	<!--跑馬燈-->
+	<div class="str1 str_wrap" style="height:45px;">
+		        <p><a href="#">跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈</a></p>
+		        <p><a href="#">跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈</a></p>
+                <p><a href="#">跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈</a></p>
+                <p><a href="#">跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈</a></p>
+                <p><a href="#">跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈</a></p>
+                <p><a href="#">跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈</a></p>
+                <p><a href="#">跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈</a></p>
+                <p><a href="#">跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈跑馬燈</a></p>
+		    </div>
         <!--頭部廣告圖片-->
         <div id="lunhuan">
             <uc2:lunbo ID="lunbo1" runat="server" />
