@@ -3275,6 +3275,8 @@ filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorst
 .focus .next{top: 50%;margin-top: -37px; right: 0;  background-position:-40px -74px;  cursor:pointer;}  
 .focus .prev:hover{  background-position:0 0; }  
 .focus .next:hover{  background-position:-40px 0;}  
+.fblogin-btn{paddgin:8px; texe-algin:center; width:263px;}
+.btn-red{background:red; color:#fff;}
 
 .str_wrap {
 	overflow:hidden;
