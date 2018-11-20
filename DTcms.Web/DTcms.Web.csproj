@@ -261,6 +261,7 @@
     <Content Include="js\dropdownlist.js" />
     <Content Include="js\html5.js" />
     <Content Include="js\jquery-1.8.3.min.js" />
+    <Content Include="js\jquery.liMarquee.js" />
     <Content Include="js\koala.min.1.5.js" />
     <Content Include="js\lrscroll.js" />
     <Content Include="js\miniTips-min.js" />
