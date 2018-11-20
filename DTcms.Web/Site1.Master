@@ -428,10 +428,9 @@
                     台北市重慶北路三段120巷8號1樓 empro@hotmail.com.tw
                 </p>
                 <p>
-                    Copyright@2007-2013 by Addcn Technology Co;Ltd ALL Rights Reserved
+                    Copyright@2007-2013 by Addcn Technology Co;Ltd ALL Rights Reserved 本日瀏覽人次:<%=TodayCount %> 總瀏覽人次:<%=TotalCount %>
                 </p>
-                <p>本日瀏覽人次:<%=TodayCount %></p>
-                <p>總瀏覽人次:<%=TotalCount %></p>
+               
             </span>&nbsp;
         </div>
         <!-- 代码开始 -->
